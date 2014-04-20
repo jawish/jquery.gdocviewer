@@ -1,4 +1,4 @@
-Here's a little jQuery plugin I wrote recently that automatically embeds the Google Docs Viewer for viewing pdf, doc, docx, ppt and tiff files linked to by anchor tags.
+jQuery plugin that automatically embeds the Google Docs Viewer for viewing pdf, doc, docx, ppt and tiff files linked to by anchor tags.
 
 The Google Docs Viewer is an embeddable browser-based viewer that requires only a URL to a file available online. This neatly bypasses the need for users to have compatible software on their machines for those file types and displays the document right in the browser.
 

@@ -26,7 +26,7 @@
 				$(this).after(function () {
 					var id = $(this).attr('id');
 					var gdvId = (typeof id !== 'undefined' && id !== false) ? id + '-gdocsviewer' : '';
-					return '<div id="' + gdvId + '" class="gdocsviewer"><iframe src="http://docs.google.com/viewer?embedded=true&url=' + encodeURIComponent(file) + '" width="' + settings.width + '" height="' + settings.height + '" style="border: none;"></iframe></div>';
+					return '<div id="' + gdvId + '" class="gdocsviewer"><iframe src="//docs.google.com/viewer?embedded=true&url=' + encodeURIComponent(file) + '" width="' + settings.width + '" height="' + settings.height + '" style="border: none;"></iframe></div>';
 				})
 			}
 		});
